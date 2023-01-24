@@ -10,10 +10,10 @@ public class Main {
         int counter = 0;
         boolean isRunning = true;
 
-        while (isRunning) ; {
+        while (isRunning)  {
             System.out.println("Type your number:");
             int number = scanner.nextInt();
-            if (number == secretNumber) ;
+            if (number == secretNumber)
             {
                 System.out.println("WIn!");
                 isRunning = false;
